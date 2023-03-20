@@ -9,8 +9,8 @@ namespace ConsoleApp18
 
 
             patterns printTables = new patterns();
-            // printTables.MultiplicationTable();
-            printTables.Printfectoriyals();
+             printTables.MultiplicationTable();
+           // printTables.Printfectoriyals();
 
 
             int numbers, i, counter, num1, num2;
@@ -40,7 +40,7 @@ namespace ConsoleApp18
 
                 if (counter == 0 )
                 {
-                    Console.WriteLine("Prime number is  " + numbers); 
+                    Console.WriteLine("Prime number is  =" + numbers); 
                 }
             }
 
